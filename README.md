@@ -1,17 +1,17 @@
-* 使用 CloudFlare 的 Argo 隧道，同时兼容 Json / token / 临时 三种方式认证，使用TLS加密通信，可以将应用程序流量安全地传输到Cloudflare网络，提高了应用程序的安全性和可靠性。此外，Argo Tunnel也可以防止IP泄露和DDoS攻击等网络威胁
+* 使用 CFlare 的 Argo 隧道，同时兼容 Json / token / 临时 三种方式认证，使用TLS加密通信，可以将应用程序流量安全地传输到Cflare网络，提高了应用程序的安全性和可靠性。此外，Argo Tunnel也可以防止IP泄露和DDoS攻击等网络威胁
 * 解锁 chatGPT
 * 在浏览器查看系统各项信息，方便直观
 * 集成哪吒探针，可以自由选择是否安装
 * uuid，WS 路径既可以自定义，又或者使用默认值
 * 前端 js 定时和 pm2 配合保活，务求让恢复时间减到最小
-* 节点信息以 V2rayN / Clash / 小火箭 链接方式输出
+* 节点信息以 V2ayN / Clsh / 小-火箭 链接方式输出
 * 项目路径 `https://github.com/fscarmen2/Render`
 
 * PaaS 平台用到的变量
   | 变量名        | 是否必须 | 默认值 | 备注 |
   | ------------ | ------ | ------ | ------ |
   | UUID         | 否 | de04add9-5c68-8bab-950c-08cd5320df18 | 可在线生成 https://www.zxgj.cn/g/uuid |
-  | WSPATH       | 否 | argo | 勿以 / 开头，各协议路径为 `/WSPATH-协议`，如 `/argo-vless`,`/argo-vmess`,`/argo-trojan`,`/argo-shadowsocks` |
+  | WSPATH       | 否 | argo | 勿以 / 开头，各协议路径为 `/WSPATH-协议`，如 `/argo-vlss`,`/argo-vmss`,`/argo-trjan`,`/argo-shdowsocks` |
   | NEZHA_SERVER | 否 |        | 哪吒探针服务端的 IP 或域名 |
   | NEZHA_PORT   | 否 |        | 哪吒探针服务端的端口 |
   | NEZHA_KEY    | 否 |        | 哪吒探针客户端专用 Key |
